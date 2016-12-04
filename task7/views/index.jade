@@ -1,0 +1,31 @@
+doctype
+html
+	head
+		title #{title}
+		meta(charset="utf-8")
+		link(rel="stylesheet",href="/css/index.css")
+	body
+		//- 导航栏
+		nav.top_nav
+			div.logo
+				img(src="https://www.baidu.com/img/bd_logo1.png",alt="校园二手",title="logo")
+		div.main
+			nav.left_nav
+				ul
+					each item in type
+						li
+							a(href="#") #{item.type_title} 
+			div.wrapper
+				h1 内容管理
+				table.table
+					thead
+						tr
+							th ID
+							th 用户名
+							th 用户邮箱
+							th 登录密码
+							th 注册时间
+							th 状态
+					tbody		
+
+

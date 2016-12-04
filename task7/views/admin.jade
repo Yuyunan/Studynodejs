@@ -1,0 +1,40 @@
+doctype
+html
+	head
+		title #{title}
+		meta(charset="utf-8")
+		link(rel="stylesheet",href="/css/index.css")
+	body
+		//- 导航栏
+		nav.top_nav
+			div.logo
+				img(src="https://www.baidu.com/img/bd_logo1.png",alt="校园二手",title="logo")
+		div.main
+			nav.left_nav
+				ul
+					li
+						a(href="#") 订单管理
+					li
+						a(href="#") 分类管理
+					li
+						a(href="#") 文章管理
+					li
+						a(href="#") 用户管理
+			div.wrapper
+				h1 内容管理
+				table.table
+					thead
+						tr
+							th ID
+							th 新闻类型
+							th 新闻标题
+							th 新闻时间
+							th 操作
+					tbody
+						each item in data
+							tr
+								td #{item.news_id}
+								td #{item.news_type}
+								td #{item.news_title}
+								td #{item.news_time}
+		

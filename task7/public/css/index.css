@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top_nav {
+    width: 100%;
+    height: 60px;
+    background-color: #32b38c;
+    position: fixed;
+}
+
+.logo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 60px;
+    width: 250px;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.logo img {
+    width: 240px;
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.main {
+    position: relative;
+    top: 60px;
+    left: 0;
+}
+
+.left_nav {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    background-color: #393836;
+}
+
+.left_nav ul {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+.left_nav ul li {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.left_nav ul li:hover a {
+    color: blue;
+}
+
+.left_nav ul li a {
+    text-decoration: none;
+    color: #eee;
+}
+
+.wrapper {
+    position: relative;
+    top: 0;
+    left: 254px;
+    width: 82%;
+}
+
+.wrapper h1 {
+    margin: 0;
+    padding: 20px 10px;
+    border-bottom: 2px solid #eee;
+}
+
+.table {
+    position: absolute;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    display: table;
+    margin-top: 100px;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+table>thead>tr>th {
+    vertical-align: bottom;
+    padding-bottom: 5px;
+    font-size: 16px;
+    border-bottom: 2px solid #ddd;
+    text-align: center;
+}
+
+table>tbody>tr>td {
+    vertical-align: bottom;
+    padding: 5px;
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+table>tbody>tr:hover {
+    background-color: #eee;
+}
