@@ -25,7 +25,7 @@ router.get('/admin',function (req,res) {
 })
 
 
-router.get('/login',function {
+router.get('/login',function (req,res) {
 		res.render('login',{
 			title:'欢迎登陆'
 		})
