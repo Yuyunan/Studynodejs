@@ -4,6 +4,37 @@ body{
 	background-color: #4A374A;
 }
 
-.login{
-	
+form{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	margin: -150px 0 0 -150px;
+	width: 300px;
+	height: 300px;
+}
+
+h1{
+	text-align: center;
+	color: #fff;
+}
+
+.formInput{
+	width: 278PX;
+	height: 20PX;
+	padding: 10PX;
+	font-size: 15PX;
+	color: #fff;
+	border-top: 1px solid #312E3D;   
+    border-left: 1px solid #312E3D;   
+    border-right: 1px solid #312E3D;   
+    border-bottom: 1px solid #312E3D; 
+    background-color: #2D2D3F;   
+}
+
+.but{
+	width: 300px;
+	height: 40px;
+	display: block;
+	font-size: 15px;
+	background-color: #4a77d4;
 }
